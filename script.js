@@ -270,7 +270,7 @@ document.addEventListener('keyup', (e) => {
     calculator.updateDisplay()
   }
   if (e.key === '*') {
-    calculator.chooseOperation('&times;')
+    calculator.chooseOperation('×')
     calculator.updateDisplay()
   }
   if (e.key === '/') {
