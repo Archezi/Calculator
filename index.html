@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="calculator-container">
+    
+    <div class="calculator-body">
+      <div class="calculator-header">
+        <h1>Calculator</h1>
+      </div>
+      <div class="calculator-display">
+        <div class="previouse-operator" data-previous-operand></div>
+        <div class="current-operator" data-current-operand></div>
+      </div>
+      <div class="calculator-keypad">
+        <button class="keypad-operation"  data-operation-percent>%</button>
+        <button class="keypad-operation " data-all-clear  >CE</button>
+        <button class="keypad-operation " data-clear  >C</button>
+        <button class="keypad-operation delete-button"  data-delete ><i class="gg-backspace"></i></button>
+        
+        <button class="keypad-operation"  data-operation-special> 1/x </button>
+        <button class="keypad-operation"  data-operation-special>x2</button>
+        <button class="keypad-operation"  data-operation-special>√</button>
+        <button class="keypad-operation"  data-operation>÷</button>
+        
+        <button class="keypad-button"  data-number>7</button>
+        <button class="keypad-button"  data-number>8</button>
+        <button class="keypad-button"  data-number>9</button>
+        <button class="keypad-operation"  data-operation>&times;</button>
+        
+        <button class="keypad-button"  data-number>4</button>
+        <button class="keypad-button"  data-number>5</button>
+        <button class="keypad-button"  data-number>6</button>
+        <button class="keypad-operation"  data-operation>+</button>
+
+        <button class="keypad-button"  data-number >1</button>
+        <button class="keypad-button"  data-number>2</button>
+        <button class="keypad-button"  data-number>3</button>
+        <button class="keypad-operation"  data-operation>-</button>
+
+        <button class="keypad-button " data-operation-special>+/-</button>
+        <button class="keypad-button " data-number>.</button>
+        <button class="keypad-button"  data-number>0</button>
+        <button class="keypad-equals  " data-equals>=</button>
+      </div>
+      <div class="calculator-tab">
+        <div class="calculator-tab-item" data-tab-history>History</div>
+        <button class="calculator-clear-history" data-clear-history>Clear</button>
+      </div> 
+      <div class="calculator-result-container">
+        <div class="calculator-result" data-calculation-result-list>
+        </div>
+        <div class="calculator-memory" data-calculation-memory-list></div>
+      </div>
+  </div>
+  <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
