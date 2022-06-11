@@ -6,21 +6,11 @@ const clearButton = document.querySelector('[data-clear]')
 const deleteButton = document.querySelector('[data-delete]')
 const percentButton = document.querySelector('[data-operation-percent]')
 const clearHistoryButton = document.querySelector('[data-clear-history]')
-const operationSpecialButton = document.querySelectorAll(
-  '[data-operation-special]'
-)
-const previousOperandTextElement = document.querySelector(
-  '[data-previous-operand]'
-)
-const currentOperandTextElement = document.querySelector(
-  '[data-current-operand]'
-)
-const calculationResultList = document.querySelector(
-  '[data-calculation-result-list]'
-)
-const calculationResultListItem = document.querySelectorAll(
-  '[data-result-list-item]'
-)
+const operationSpecialButton = document.querySelectorAll('[data-operation-special]')
+const previousOperandTextElement = document.querySelector('[data-previous-operand]')
+const currentOperandTextElement = document.querySelector('[data-current-operand]')
+const calculationResultList = document.querySelector('[data-calculation-result-list]')
+const calculationResultListItem = document.querySelectorAll('[data-result-list-item]')
 const resutlListResult = document.querySelectorAll('[data-result-list-result]')
 
 class Calculator {
